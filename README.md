@@ -7,9 +7,24 @@
 
 ### Docker
 
+For building the Dockerfile only:
+
 ```bash
 docker-compose up
 ```
+
+For building the rinkeby and mainnet
+
+```bash 
+docker-compose build && docker-compose up
+```
+
+For pushing changes
+
+```bash
+docker-compose build && docker-compose push
+```
+
 
 ### Kubernetes (minikube)
 
